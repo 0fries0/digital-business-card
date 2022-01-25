@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+  height: 100vh;
+}
+.container {
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  margin-top: 53px;
+  margin-left: 65px;
+  background-color: #23252c;
+  color: white;
+}
+
+.card {
+  width: 317px;
+  height: 780px;
+  margin-top: 44px;
+  margin-left: 114px;
+  border-radius: 5px;
+  background-color: #1a1b21;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.image-container {
+  height: 317px;
+  background: url("profile-pic1.jpeg");
+  background-size: 317px;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image-container img{
+    height : 317px;
+}
+
+.about {
+  max-height: 399px;
+  background-color: #1a1b21;
+}
+
+.about .profile h1 {
+  text-align: center;
+  width: 178.06px;
+  height: 25.81px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.about .profile h4{
+    position: absolute;
+width: 178.06px;
+height: 14.19px;
+left: 186px;
+margin : 0;
+margin-top : 5px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99;
+}
+
+.profile p{
+    position: absolute;
+width: 228px;
+height: 16px;
+left: 161px;
+top: 437px;
+margin : 0;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #F5F5F5;
+
+}
+
+/* Text */
+.contact {
+    display : flex;
+    height : 40px;
+    margin-top : 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact span{
+    width : 260px;
+    display : flex;
+    justify-content: center;
+    height : 35px;
+    align-items: center;
+    cursor : pointer;
+}
+.contact img{
+    margin-right: 10px;
+    margin-top  :5px;
+}
+.contact .email {
+    border: 1px solid #D1D5DB;
+box-sizing: border-box;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+background-color: #FFFFFF;
+color : black;
+}
+
+img{
+    width : 20px;
+    height :20px;
+}
+
+.summary, .interests {
+margin : 0 auto;
+margin-top : 35px;
+width : 80%;
+display : flex;
+flex-direction: column;
+}
+
+.summary h2, .interests h2{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+color : #F5F5F5;
+margin : 0;
+}
+
+.interests {
+    margin-top  :20px;
+}
+
+.summary p, .interests p{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #DCDCDC;
+}
+
+footer {
+  max-height: 64px;
+
+width: 317px;
+height: 64px;
+margin-top  :18px;
+
+background: #161619;
+
+border-radius: 0px 0px 10px 10px;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding-left  :0;
+}
+
+footer li{
+    width  :25px;
+    height : 25px;
+    padding-right :20px;
+    filter : invert(1);
+}
+
+footer .linkedin img{
+width  :25px;
+height  :25px;
+}
+
+footer .github img{
+    height : 29px;
+    width  :29px;
+}

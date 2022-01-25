@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
   background-color: #1c1c1c;
   height: 100vh;
+  width: 100%;
+}
+a {
+  text-decoration: none;
 }
 .container {
   position: absolute;
@@ -36,8 +40,8 @@ body {
   border-radius: 10px 10px 0px 0px;
 }
 
-.image-container img{
-    height : 317px;
+.image-container img {
+  height: 317px;
 }
 
 .about {
@@ -59,148 +63,149 @@ body {
   line-height: 30px;
 }
 
-.about .profile h4{
-    position: absolute;
-width: 178.06px;
-height: 14.19px;
-left: 186px;
-margin : 0;
-margin-top : 5px;
+.about .profile h4 {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  margin: 0;
+  margin-top: 5px;
 
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 12.8px;
-line-height: 15px;
-text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
 
-color: #F3BF99;
+  color: #f3bf99;
 }
 
-.profile p{
-    position: absolute;
-width: 228px;
-height: 16px;
-left: 161px;
-top: 437px;
-margin : 0;
+.profile p {
+  position: absolute;
+  width: 228px;
+  height: 16px;
+  left: 161px;
+  top: 437px;
+  margin: 0;
 
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10.24px;
-line-height: 150%;
-/* identical to box height, or 15px */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
 
-text-align: center;
+  text-align: center;
 
-color: #F5F5F5;
-
+  color: #f5f5f5;
 }
 
 /* Text */
 .contact {
-    display : flex;
-    height : 40px;
-    margin-top : 60px;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  height: 40px;
+  margin-top: 60px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.contact span{
-    width : 260px;
-    display : flex;
-    justify-content: center;
-    height : 35px;
-    align-items: center;
-    cursor : pointer;
+.contact span {
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  align-items: center;
+  cursor: pointer;
 }
-.contact img{
-    margin-right: 10px;
-    margin-top  :5px;
+.contact img {
+  margin-right: 10px;
+  margin-top: 0px;
 }
 .contact .email {
-    border: 1px solid #D1D5DB;
-box-sizing: border-box;
-/* shadow/sm */
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  /* shadow/sm */
 
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px;
-background-color: #FFFFFF;
-color : black;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: black;
 }
 
-img{
-    width : 20px;
-    height :20px;
+img {
+  width: 20px;
+  height: 20px;
 }
 
-.summary, .interests {
-margin : 0 auto;
-margin-top : 35px;
-width : 80%;
-display : flex;
-flex-direction: column;
+.summary,
+.interests {
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
-.summary h2, .interests h2{
-    font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 150%;
-color : #F5F5F5;
-margin : 0;
+.summary h2,
+.interests h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+  margin: 0;
 }
 
 .interests {
-    margin-top  :20px;
+  margin-top: 20px;
 }
 
-.summary p, .interests p{
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10.24px;
-line-height: 150%;
-/* or 15px */
+.summary p,
+.interests p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
 
-
-color: #DCDCDC;
+  color: #dcdcdc;
 }
 
 footer {
   max-height: 64px;
 
-width: 317px;
-height: 64px;
-margin-top  :18px;
+  width: 317px;
+  height: 64px;
+  margin-top: 18px;
 
-background: #161619;
+  background: #161619;
 
-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 footer ul {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
-  padding-left  :0;
+  padding-left: 0;
 }
 
-footer li{
-    width  :25px;
-    height : 25px;
-    padding-right :20px;
-    filter : invert(1);
+footer li {
+  width: 25px;
+  height: 25px;
+  padding-right: 20px;
+  filter: invert(1);
 }
 
-footer .linkedin img{
-width  :25px;
-height  :25px;
+footer .linkedin img {
+  width: 25px;
+  height: 25px;
 }
 
-footer .github img{
-    height : 29px;
-    width  :29px;
+footer .github img {
+  height: 29px;
+  width: 29px;
 }
